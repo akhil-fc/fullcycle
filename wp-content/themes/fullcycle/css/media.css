@@ -1,0 +1,1526 @@
+@media screen and (max-height:550px) {
+	.section {
+		height: 600px;
+	}
+	/*#slide1.section .recentlyPublishedWrap {
+		height: calc(100% - 116px);
+	}*/
+	.rightNavLinks.show ul {
+		height: 400px;
+		overflow: auto;
+	}
+}
+
+@media screen and (max-height:380px) {
+	.rightNavLinks.show ul {
+		height: 250px;
+		overflow: auto;
+	}
+}
+@media screen and (min-width:1400px) {
+	footer{
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+	footer .aboutUsWrap,footer .linksWrap{
+		margin-right:160px;
+	}
+	footer .divider{
+		margin: 0px 35px;
+	}
+	.extendedDevelopmentWrap{
+		padding:0px 70px;
+	}
+	footer .footerCopy{
+		margin: 34px 0 58px;
+	}
+	.carrersBannerWrap{
+		background-position: center center;
+	}
+
+}
+
+@media screen and (min-width:1300px) {
+	/*.leaderCaption .leaderCaptionText:last-child {
+		padding-left: 104px;
+	}*/
+	.leaderCaption .leaderCaptionText:first-child {
+		padding-left: 0px;
+	}	
+	.yourDeveloperGradient .allBannerSection {
+	    background-size: 62%;
+	}
+}
+
+@media screen and (max-width:1440px) {
+	.carrersBannerWrap .aboutUsContainer .bannerDetail {
+		width: auto;
+		max-width: 650px;
+	}
+}
+@media screen and (max-width:1400px){
+	.leaderCaption{
+		width: 44%;
+	}
+}
+@media screen and (max-width:1300px){
+	.leaderCaption .leaderCaptionText:last-child {
+		padding-left: 150px;
+	}
+	.leaderCaption .leaderCaptionText:first-child {
+    	padding-left: 0px;
+	}
+}
+
+@media screen and (max-width:1200px) {
+	.leaderCaption {
+		max-width: 465px;
+		width: 56%;
+	}
+
+	.leaderCaption .leaderCaptionText:first-child {
+		padding-left: 21%;
+	}
+
+	.leaderCaption .leaderCaptionText:last-child {
+		padding-left: 15%;
+	}
+	.leaderCaption {
+		max-width: 465px;
+		width: 56%;
+	}
+	.leaderMainCaptionContainer {
+		left: 0px;
+		top: auto;
+		bottom: 0px;
+		background-color: transparent;
+		background-image: linear-gradient(270deg, #f6f5f6, hsla(300, 5%, 96%, .72) 100%, hsla(300, 5%, 96%, 0) 60%, hsla(300, 5%, 96%, 0));
+		padding: 5px 0 5px 30px;
+	}
+	.sliderContentWrap {
+		width: 100%;
+		max-width: 508px;
+	}
+	.lederShipWrap .ourStoryColumn{
+		z-index: 1;
+	}
+
+	.leaderCaption{
+		margin-top:0px;
+	}
+
+
+}
+
+@media screen and (max-width:1024px) {
+
+	.extendedDevelopmentWrap {
+		padding: 0px 30px;
+	}
+
+	footer .footerContent.aboutUsWrap {
+		margin-bottom: 40px;
+	}
+
+	footer .footerCopy {
+		margin: 45px 0 20px;
+	}
+	.sectionOneWrap .extendedDevelopmentWrap h1 {
+		max-width: 500px
+	}
+	.extendedDevelopmentWrap h1 {
+		max-width: 385px;
+	}
+	.ghostBar {
+		display: flex;
+		bottom: 0px;
+	}
+
+	.clientSectionWrap .ghostBar {
+		display: none;
+	}
+
+	.ghostBar img {
+		height: 20px;
+	}
+
+	.lederShipWrap .bgImageWrap {
+		/*background-image: url(../images/boards-tablet.png);*/
+		background-size:  100% auto;
+		background-position: right 88% bottom 0px;
+		max-width: 465px;
+	}
+
+	#Leadership .ourStoryInner .ourStoryColumn:nth-child(2) {
+		-webkit-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+	}
+
+	#Leadership .ourStoryInner .ourStoryColumn:first-child {
+		width: 44%;
+	}
+
+	#Leadership .ourStoryInner {
+		left: 0px;
+	}
+
+	#Story .ourStoryInner {
+		padding-left: 15px;
+		padding-right: 15px;
+		left: 15px;
+	}
+
+	#Story .ourStoryColumn:first-child {
+		width: calc(55% - 12.5px);
+	}
+
+	#Story .ourStoryColumn:nth-child(2) {
+		width: calc(45% - 12.5px);
+	}
+
+	#Story .ourStoryInner .bgImageWrap {
+		background-position: 43%;
+	}
+
+	.lederShipWrap .bgImageWrap {
+		margin-left: auto;
+	}
+
+	#Leadership .ourStoryInner {
+		padding-right: 0px;
+	}
+
+	.questionWrap {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		width: 100%;
+		padding-bottom: 50px;
+	}
+
+	.questionWrap .leftColumn,
+	.questionWrap .rightColumn {
+		max-width: 100%;
+		flex: 0 0 100%;
+		padding: 0px 0px 0px 80px;
+	}
+
+	.jobListing .jobFDetail > div {
+		height: auto;
+	}
+
+	.jobListing .jobFDetail {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%
+	}
+
+	.featuredJobs {
+		padding: 100px 0 110px 0;
+	}
+
+	.testimonial {
+		padding: 50px 0 0 0;
+	}
+
+}
+
+@media screen and (max-width:991px) {
+	.tab-dis-none {
+		display: none;
+	}
+	header{
+		position: fixed;
+	}
+
+	.rightNavLinks {
+		width: 100%;
+		top: 70px;
+		left: 0px;
+		right: 0px;
+		margin: 0 auto;
+		height: 100%;
+		position: fixed;
+		background: #fff;
+	}
+
+	header .rightNavLinks {
+		z-index: 999;
+	}
+
+	header .rightNavLinks ul {
+		display: flex;
+		margin-bottom: 0px;
+		list-style: none;
+		padding-left: 0px;
+		align-items: center;
+		width: 100%;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	header .navLink a {
+		font-size: 25px;
+		padding: 30px 0px;
+		opacity: .5;
+	}
+
+	header .navLink a:hover,
+	header .navLink.active a,
+	header .contactUsBtn:hover {
+		opacity: 1;
+		font-weight: 400;
+	}
+
+	header .contactUsBtn {
+		transition: right .25s 0s;
+		position: relative;
+		right: 0px;
+	}
+
+	header .toggleIcon {
+		display: block;
+		position: relative;
+		margin: 0 10px 0 0;
+		padding: 0;
+		width: 26px;
+		font-size: 0;
+		text-indent: -9999px;
+		box-shadow: none;
+		border-radius: unset;
+		border: none;
+		cursor: pointer;
+		background: 0 0;
+		right: 0;
+		z-index: 5;
+		transition: right .3s 0s;
+		height: 40px;
+		margin-left: auto;
+	}
+
+	header .toggleIcon span {
+		display: block;
+		position: absolute;
+		top: 19px;
+		left: 0;
+		right: 0;
+		height: 2px;
+		background: #212529;
+		transition: background .3s ease;
+	}
+
+	header .toggleIcon span:before,
+	header .toggleIcon span:after {
+		position: absolute;
+		display: block;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		background-color: #212529;
+		content: "";
+	}
+
+	header .toggleIcon span:before {
+		top: -10px;
+		transition: top .3s .3s, background .3s ease, -webkit-transform .3s 0s;
+		transition: top .3s .3s, transform .3s 0s, background .3s ease;
+		transition: top .3s .3s, transform .3s 0s, background .3s ease, -webkit-transform .3s 0s;
+	}
+
+	header .toggleIcon span:after {
+		bottom: -10px;
+		transition: bottom .3s .3s, background .3s ease, -webkit-transform .3s 0s;
+		transition: bottom .3s .3s, transform .3s 0s, background .3s ease;
+		transition: bottom .3s .3s, transform .3s 0s, background .3s ease, -webkit-transform .3s 0s;
+	}
+
+	
+
+	.tab-dis-block {
+		display: block;
+	}
+
+	.contactUsBtn.show,.bg-white-click .contactUsBtn {
+		right: -150px;
+	}
+
+	header {
+		overflow: hidden;
+	}
+
+	.toggleIcon.goRight ,.bg-white-click .toggleIcon{
+		right: -107px;
+	}
+
+	header .toggleIcon.goRight span,
+	header.bg-transparent .toggleIcon.goRight span,header.bg-white-click .toggleIcon span{
+		background: 0 0 !important;
+	}
+
+	header .toggleIcon.goRight span:before,header.bg-white-click .toggleIcon span:before {
+		top: 0;
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
+		transition: top .3s 0s, background .3s ease, -webkit-transform .3s .3s;
+		transition: top .3s 0s, transform .3s .3s, background .3s ease;
+		transition: top .3s 0s, transform .3s .3s, background .3s ease, -webkit-transform .3s .3s;
+	}
+
+	header .toggleIcon.goRight span:after,header.bg-white-click .toggleIcon span:after {
+		bottom: 0;
+		-webkit-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+		transition: bottom .3s 0s, background .3s ease, -webkit-transform .3s .3s;
+		transition: bottom .3s 0s, transform .3s .3s, background .3s ease;
+		transition: bottom .3s 0s, transform .3s .3s, background .3s ease, -webkit-transform .3s .3s;
+	}
+
+	.rightNavLinks {
+		opacity: 0;
+		visibility: hidden;
+	}
+
+	.rightNavLinks.show,.bg-white-click .rightNavLinks {
+		opacity: 1;
+		visibility: visible;
+	}
+
+	header .contactUsBtn.tabContactUsBtn {
+		right: 0px !important;
+		position: relative;
+		display: block;
+		width: 195px;
+		height: 55px;
+		margin: 0 auto;
+		padding: 14px 0 10px;
+		border: 1px solid #212529;
+		border-radius: 2px;
+		color: #212529;
+		font-size: 25px;
+		text-decoration: none;
+		text-align: center;
+	}
+
+	.contactWrap {
+		position: static;
+		bottom: 0px;
+		margin-bottom: 30px;
+	}
+
+	.extendedDevelopmentWrap svg {
+		height: 42px;
+		width: 150px;
+		margin-top: 14px;
+	}
+
+	.clientBarDetail {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.clientBarDetail div {
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+		text-align: center;
+	}
+	.clientBarDetail.tab-dis-block{
+		display: flex;
+	}
+	.clientBarDetail {
+		justify-content: center;
+	}
+
+	.clientBarDetail div:last-child {
+		margin-top: 60px;
+	}
+	.sectionTwoWrap{
+		background-position: 15%;
+	}
+
+	
+
+	.blueOverlay,
+	.darkBlueOverlay,
+	.greenOverlay {
+		height: 100%;
+		width: 100%;
+	}
+
+	
+
+	.overlayOrange {
+		background: rgba(237, 140, 61, .8);
+	}
+
+	.sectionTwoWrap .extendedDevelopmentWrap,
+	.sectionThereWrap .extendedDevelopmentWrap {
+		max-width: 450px;
+	}
+
+	.sectionThereWrap.straightOuttaWrap .extendedDevelopmentWrap h1 {
+		max-width: 365px;
+	}
+
+	.sectionThereWrap.straightOuttaWrap .extendedDevelopmentWrap p {
+		max-width: 290px;
+	}
+
+	#slideThree .sectionTwoWrap {
+		background-position:;
+	}
+
+	.sectionThereWrap {		
+		background-position: 200% 0px;
+	}
+
+	.sectionFourWrap {		
+		background-position: 63% 0;
+	}
+
+	.sectionFourWrap .clientNames {
+		display: none;
+	}
+
+	.sectionFourWrap .extendedDevelopmentWrap {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+
+	.droupDown .custom-droup-down {
+		display: none;
+	}
+
+	header.bg-transparent .toggleIcon span {
+		background: #fff !important;
+	}
+
+	header.bg-transparent.bg-white .toggleIcon span {
+		background: #212529 !important;
+	}
+
+	header.bg-transparent.bg-white .toggleIcon span:before,
+	header.bg-transparent.bg-white .toggleIcon span:after,
+	header.bg-white .toggleIcon span:before,
+	header.bg-white .toggleIcon span:after {
+		background: #212529 !important;
+	}
+
+	header.bg-transparent .toggleIcon span::before,
+	header.bg-transparent .toggleIcon span::after {
+		background: #fff !important;
+	}
+
+	header.bg-white .toggleIcon.goRight span,header.bg-white-click .toggleIcon span {
+		background: #fff !important;
+	}
+
+	.allBannerSection {
+		max-height: 650px;
+		height: 650px;
+	}
+
+	.bannerImage img {
+		max-height: 43vh;
+		vertical-align: middle;
+	}
+
+	.bannerImage {
+		right: 0px;
+		width: 100%;
+		text-align: right;
+	}
+
+	.allBannerSection,
+	.notTypicalWrap,
+	.commonGap,
+	.fourStepsWrap {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.checkboxLine {
+		width: 20px;
+	}
+
+	.checkboxLine:after,
+	.checkBoxesContainer .lineTop::before,
+	.checkboxLine.lineBtm:before {
+		left: 9px;
+	}
+
+	.fourStepsWrap {
+		padding-top: 50px;
+	}
+
+	.notTypicalWrap {
+		padding-bottom: 40px;
+	}
+
+	.fourStepImageWrap img {
+		bottom: -40px;
+	}
+
+	.numberLine span {
+		width: 20px;
+		height: 20px;
+	}
+
+	.numberLine::after {
+		left: 9px;
+	}
+
+	.colorSquare > div {
+		font-size: 16px;
+		padding: 10px 5px;
+	}
+
+	.sectionTechnologies .sectionInner > div,
+	.fourStepLeftColumn,
+	.fourStepRightColum,
+	.checkBoxGrid {
+		width: calc(50% - 30px);
+	}
+
+	.yourDeveloperGradient .allBannerSection {
+		background-position: right bottom;
+		background-size: 50%;
+	}
+
+	.allBannerSection .preDescription {
+		width: 66%;
+		max-width: 400px;
+	}
+
+	.fullyDedicatedText {
+		width: 100%;
+	}
+
+	.fullyDedicatedWrap {
+		padding-bottom: 50vw;
+	}
+
+	.skillBlock {
+		width: calc(50% - 30px);
+	}
+
+	.skillBlock ul li .tab-dis-block {
+		display: inline-block;
+	}
+
+	header.bg-transparent .rightNavLinks  .navLink a:hover,
+	header.bg-transparent .rightNavLinks  .navLink.active a,
+	header.bg-transparent .rightNavLinks  .contactUsBtn:hover,
+	header.bg-transparent .rightNavLinks  .navLink a {
+		color: #212529 !important;
+	}
+	.aboutPolandContainer .aboutPolandBox {
+		width: calc(50% - 30px);
+	}
+
+	.aboutPolandContainer .aboutPolandBox:not(:last-child) {
+		margin-bottom: 60px;
+	}
+
+	.whyIndiaMapLayer {
+		background-size: 155%;
+	}
+
+	.aboutUsContainer .bannerDetail {
+		width: 62%;
+	}
+
+	.carrersBannerWrap .aboutUsContainer .bannerDetail {
+		width: auto;
+		max-width: 580px;
+	}
+
+	.carrersBannerWrap .allBannerSection .preDescription {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.ourIdeas .grid {
+		flex: 0 0 50%;
+		max-width: 50%;
+		padding-bottom: 30px;
+	}
+
+	.ourIdeas .innerGridWrap {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	header.bg-transparent.bg-white .contactUsBtn {
+		border: 1px solid #212529;
+		color: #212529;
+	}
+
+	.carrersStoryWrap .columnsWrap .column:first-child {
+		max-width: 100%;
+		order: 2;
+	}
+
+	.carrersStoryWrap .columnsWrap .column:last-child {
+		max-width: 100%;
+		order: 1;
+	}
+
+	.carrersStoryWrap .columnsWrap {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.carrersStoryWrap .columnsWrap .column .imageWrap {
+		padding-top: 0px;
+	}
+
+	.carrersStoryWrap h2 {
+		font-size: 35px;
+		margin-bottom: 15px;
+		text-align: center;
+		padding-bottom: 0px;
+	}
+
+	.carrersStoryInnerWrapper p.commonDetailPara,
+	.carrersStoryWrap .columnsWrap .column .caption {
+		text-align: center;
+	}
+
+	.carrersStoryWrap .columnsWrap .column .caption br {
+		display: none;
+	}
+
+	.carrersStoryWrap {
+		padding-bottom: 70px;
+	}
+
+	.brilliantWrap h4 {
+		height: auto;
+		min-height: 140px;
+		padding-bottom: 30px;
+		font-size: 36px;
+		line-height: 36px;
+		padding-left: 85px;
+		padding-right: 85px;
+		width: 788px;
+		max-width: 74%;
+	}
+
+	.cst-ContactOuter {
+		margin: 0 auto;
+	}
+
+	.cst-ContactMain-form {
+		width: 100%;
+		margin: 50px;
+		max-width: 100%;
+	}
+
+	.cst-ContactTop {
+		min-height: 340px;
+		position: relative;
+		text-align: center;
+	}
+	.brilliantWrap h4{
+		width: 100%;
+		max-width: 100%;
+	}
+	.brilliantTextWrapper{
+		width: 788px;
+    	max-width: 74%;
+	}
+	.applyForJobWrap {
+    	padding-top: 100px;
+    	padding-left: 30px;
+    	padding-right: 30px;
+	}
+
+}
+
+@media screen and (max-width:767px) {
+
+	.mobile-dis-none {
+		display: none;
+	}
+
+	.mobile-dis-block {
+		display: block;
+	}
+
+	.toggleIcon.goRight,.bg-white-click .toggleIcon {
+		right: 0px;
+	}
+
+	.toggleIcon {
+		margin-right: 0px;
+	}
+
+	header {
+		padding: 15px 20px;
+	}
+
+	header .navLink a {
+		font-size: 20px;
+	}
+
+	header .rightNavLinks ul {
+		padding-top: 20px;
+	}
+
+	header .navLink a {
+		padding: 6px 0px;
+	}
+
+	.extendedDevelopmentWrap h1 {
+		font-size: 31px;
+	}
+
+	.extendedDevelopmentWrap {
+		padding: 0px 20px;
+	}
+
+	.extendedDevelopmentWrap p {
+		max-width: 300px;
+	}
+
+	.clientSectionWrap {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.clientBarDetail div {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-top: 60px;
+	}
+
+	.clientBarDetail div:first-child {
+		margin-top: 0px;
+	}
+
+	.extendedDevelopmentWrap h1 {
+		max-width: 280px;
+	}
+
+	.sectionTwoWrap {
+		background-repeat: no-repeat;
+		background-position: -120px;
+	}
+	#slideThree .sectionTwoWrap{
+		background-position: 87% 0;
+	}
+	#slideThree .extendedDevelopmentWrap h1 {
+		max-width: 240px;
+	}
+
+	.extendedDevelopmentWrap p {
+		width: 100%;
+	}
+
+	.sectionThereWrap.straightOuttaWrap .extendedDevelopmentWrap h1 {
+		max-width: 300px;
+	}
+
+	.yourDeveloperGradient .allBannerSection {
+		background-position: center bottom;
+		background-size: 100%;
+	}
+
+	.polandImageWrap {
+		right: -129px;
+	}
+
+	.allBannerSection .pageTitle {
+		max-width: 610px;
+	}
+
+	footer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	footer .aboutUsWrap {
+		width: 85%;
+		margin-bottom: 30px;
+		max-width: 100%;
+	}
+
+	footer .linksWrap {
+		width: 100%;/
+		margin-right: 0px;
+		margin-bottom: 30px;
+	}
+
+	footer .locationWrap .contactBoxes{
+		flex-direction: column;
+	}
+
+	footer .divider {
+		border-top: 1px solid #d8d8d8;
+		border-left: 0px;
+		border-right: 0px;
+		margin: 15px 0px;
+		width: 100%;
+	}
+
+	footer .contactBoxes .textwidget {
+		-ms-flex: 0 0 auto;
+		flex: 0 0 auto;
+		max-width: 100%;
+	}
+
+	footer .footerCopy {
+		margin: 20px 0 10px;
+	}
+
+	.recentlyPublishedWrap .title .mobile-dis-block {
+		display: inline-block;
+	}
+
+	.recentlyPublishedWrap .innerwrap {
+		padding: 12px 10px;
+	}
+
+	footer .contactBoxes .textwidget p {
+		margin-bottom: 0px;
+	}
+
+	.clientBarDetail img {
+		height: 34px;
+	}
+
+	.allBannerSection {
+		height: 100vh;
+		max-height: 100vh;
+	}
+
+	.allBannerSection .pageTitle {
+		font-size: 31px;
+		max-width: 310px;
+	}
+
+	.allBannerSection .preDescription {
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.bannerImage img {
+		height: 37vh;
+	}
+
+	.allBannerSection .arrowWrap {
+		bottom: 40px;
+	}
+
+	.subNavWrap {
+		padding: 0px 5px;
+	}
+
+	.allBannerSection,
+	.notTypicalWrap,
+	.commonGap,
+	.fourStepsWrap {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.notTypicalGrid,
+	.sectionTechnologies .sectionInner > div,
+	.fourStepLeftColumn,
+	.fourStepRightColum,
+	.checkBoxGrid,
+	.personalContainer > div {
+		max-width: calc(100% - 0px);
+		width: calc(100% - 0px);
+	}
+
+	.checkBoxesMain,
+	.fourStepInner,
+	.sectionTechnologies .sectionInner {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.checkBoxesContainer .lineTop:before,
+	.checkBoxesContainer .lineTop:before {
+		content: none;
+	}
+
+	.mobile-dis-block {
+		display: block;
+	}
+
+	.skillBlock {
+		width: calc(100% - 0px);
+	}
+
+	.skillBlock:nth-child(2) {
+		margin-top: 60px;
+	}
+
+	.fulldelicatedMemberWrap .owl-carousel .owl-nav {
+		bottom: auto;
+		top: 15px;
+	}
+
+	.fulldelicatedMemberWrap .slide1 {
+		background-repeat: no-repeat;
+		background-position: bottom center;
+	}
+
+	.fulldelicatedMemberWrap .sliderWrap .item {
+		height: 495px;
+	}
+
+	.fulldelicatedMemberWrap .slide2 {
+		background-size: cover;
+	}
+
+	.fulldelicatedMemberWrap .slide3 {
+		background-size: cover;
+		background-position: 16%;
+	}
+
+	.personalContainer {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.commonh3 {
+		font-size: 16px;
+	}
+
+	.instagramImageWrap {
+		margin-top: 60px;
+	}
+
+	.aboutPolandContainer .aboutPolandBox {
+		width: calc(100% - 0px);
+	}
+
+	.aboutPolandContainer .aboutPolandBox:not(:last-child) {
+		margin-bottom: 40px;
+	}
+
+	.whyIndiaMapContainer {
+		height: calc(100vh - 50px);
+		max-height: auto;
+	}
+
+	.whyIndiaMapLayer {
+		background-size: cover;
+	}
+
+	.mapContainer {
+		padding-top: 40px;
+		padding-bottom: 0px;
+	}
+
+	.polandImageWrap {
+		right: 0px;
+	}
+
+	.aboutUsContainer .bannerDetail {
+		width: 100%;
+	}
+
+	.allBannerSection.aboutUsContainer {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.allBannerSection.aboutUsContainer .bannerDetail {
+		height: auto;
+	}
+
+	.aboutBannerImageWrap {
+		width: 100%;
+	}
+
+	.aboutBannerImageWrap img {
+		height: auto;
+	}
+
+	.aboutUsContainer {
+		align-items: unset;
+	}
+
+	.aboutUsContainer {
+		padding-top: 90px;
+	}
+
+	.allBannerSection.aboutUsContainer .arrowWrap {
+		display: none;
+	}
+
+	.establisText {
+		margin-bottom: 20px;
+	}
+
+	.ourStoryInner {
+		left: 0px;
+	}
+
+	.ourStoryColumn {
+		width: 100%;
+	}
+
+	.ourStoryInner .bgImageWrap {
+		height: 82.9vw;
+		background-repeat: no-repeat;
+		background-position: 50%;
+		background-size: cover;
+	}
+
+	.ourStoryInner {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.ourStoryColumn:first-child {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.lederShipWrap .ourStoryColumn {
+		width: 100%;
+	}
+
+	.lederShipWrap {
+		margin-top: 0px;
+	}
+
+	.empoweringCompaniesSlide .companiesContentBox {
+		width: 100%;
+	}
+
+	.empoweringCompaniesSlide .companiesImageBox {
+		display: none;
+	}
+
+	#Leadership .ourStoryInner .ourStoryColumn:first-child {
+		width: 100%;
+	}
+
+	.lederShipWrap .bgImageWrap {
+		max-width: 100%;
+	}
+
+	#Leadership .ourStoryInner .bgImageWrap {
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: left 52% bottom 0;
+		background-size: auto 98%;
+		width: 100%;
+	}
+
+	.leaderCaption .leaderCaptionText:last-child {
+		padding-left: 0px;
+		margin-left: auto;
+	}
+
+	.leaderCaption .leaderCaptionText:first-child {
+		padding-left: 0px;
+	}
+
+	.leaderMainCaptionContainer {
+		padding: 5px 20px 5px 20px;
+	}
+
+	.leaderCaption {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	#Leadership .ourStoryInner .ourStoryColumn:nth-child(2) {
+		height: 88vw;
+	}
+
+	#Story .ourStoryColumn:first-child,
+	#Story .ourStoryInner .bgImageWrap {
+		width: 100%;
+	}
+
+	#Story .ourStoryInner {
+		padding-left: 0px;
+		padding-right: 0px;
+		left: 0px;
+	}
+
+	.allBannerSection .pageTitle {
+		max-width: 100%;
+	}
+
+	.faqWrap {
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 120px;
+	}
+
+	.faqWrap .faqDescrip {
+		width: 100%;
+	}
+
+	.faqTopWrap {
+		margin-bottom: 50px;
+	}
+
+	.carrersBannerWrap .aboutUsContainer {
+		padding-top: 0px;
+		height: auto;
+	}
+
+	.carrersBannerWrap {
+		height: 470px;
+	}
+
+	.carrersBannerWrap .aboutUsContainer .bannerDetail,
+	.carrersBannerWrap .aboutUsContainer.allBannerSection {
+		height: 100%;
+	}
+
+	.carrersBannerWrap .allBannerSection .pageTitle {
+		font-size: 40px;
+	}
+
+	.carrersBannerWrap .allBannerSection .preDescription {
+		font-size: 14px;
+	}
+
+	.ourIdeas .grid {
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+
+	.ourIdeas .wrapper {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.carrersStoryWrap .containerCommon {
+		padding-left: 20px;
+		padding-right: 20px
+	}
+
+	.carrersStoryInnerWrapper p.commonDetailPara {
+		font-size: 14px;
+		font-weight: 300;
+	}
+
+	.testiminialWrapper .singleFaqQuestions a {
+		font-size: 16px;
+	}
+
+	.testiminialWrapper .singleFaqAnswer p {
+		color: #767676;
+		font-weight: 300;
+		margin-bottom: 10px;
+		font-size: 13px;
+		line-height: 16px;
+	}
+	.featuredJobs {
+		padding: 40px 0 40px 0;
+	}
+
+	.cst-ContactBox-textSection {
+		line-height: 1.5em;
+		font-size: 14px;
+		margin-right: 15px;
+		-webkit-box-flex: 1;
+		-ms-flex-positive: 1;
+		flex-grow: 1;
+	}
+
+	.cst-ContactMain-contact {
+		flex-shrink: 0;
+	}
+
+	.cst-ContactMain-contact,
+	.cst-ContactMain-formSection {
+		width: 100%;
+	}
+
+	.cst-ContactMain {
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+
+	.cst-ContactTop-subtitle {
+		font-size: 17px;
+	}
+
+	.cst-ContactMain-form {
+		width: auto;
+		margin: 50px 5px;
+	}
+
+	.cst-ContactTop-title {
+		font-size: 32px;
+	}
+	footer .contactBoxes .textwidget  img{
+		margin-left: 10px;
+	}
+	footer .contactBoxes .textwidget > div:first-child{
+		width: 219px;
+	}
+	.lederShipWrap .bgImageWrap {		
+		background-size: 100% 100%;
+		background-position: 100%;
+		min-height: auto;
+	}
+	.checkboxLine i{
+		left: 1px;
+	}
+	.sectionThereWrap {
+		background-position: 190% 25px;
+	}
+	.cst-ContactBox-image > img.second-img{
+		display:block;
+	}
+	.leaderMainCaptionContainer{
+		z-index: 1;
+	}
+	.ourStoryContainer{
+		padding-bottom: 0px;
+	}
+	.yourDeveloperGradient .allBannerSection{
+		justify-content: flex-start;
+		padding-top: 120px;
+	}	
+	.whatWeDoWrap .yourDeveloperGradient .bannerDetail{
+		-ms-flex-pack: flex-start;
+		justify-content: flex-start;
+	}
+	.whatWeDoWrap .bannerDetail.mobileJustifyContentStart{
+		-ms-flex-pack: flex-start;
+		justify-content: flex-start;
+		padding-top: 120px;
+	}
+	.mobileJustifyContentStart .bannerImage img{
+		height: 50vh;
+		max-height: 50vh;
+	}
+	.contactFormJoshImg{
+		top: 10px;
+	}
+	footer .contactBoxes .textwidget > div:last-child .leadersImg2{
+		margin-left: 5px!important;
+	}
+	.applyForJobWrap {
+    	padding-top: 100px;
+    	padding-left: 15px;
+    	padding-right: 15px;
+	}
+	.applyForJobWrap h1 {
+    	font-size: 30px;
+	}
+	.applyForJobWrap .awsm-job-entry-content p{
+		font-size: 14px;
+	}
+	.applyForJobWrap .awsm-job-form-inner{
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width:520px) {
+	.fulldelicatedMemberWrap .slide3 {
+		background-size: 100%;
+		background-position: bottom;
+	}
+
+	.carrersBannerWrap .aboutUsContainer .bannerDetail {
+		max-width: 300px;
+	}
+
+	.carrersStoryWrap .containerCommon {
+		padding-left: 10px;
+		padding-right: 10px
+	}
+
+	.brilliantWrap h4 {
+		width: 100%;
+		height: 164px;
+		line-height: 26px;
+		font-size: 26px;
+		padding: 35px 45px 0 35px;
+		max-width: 100%;
+	}
+	.brilliantTextWrapper{
+		max-width: 300px;
+	}
+
+	.brilliantWrap {
+		height: 326px;
+	}
+
+	.siliconWrapper {
+		padding: 0 10px;
+	}
+
+	.siliconSection h3 {
+		font-size: 25px;
+		line-height: 26px;
+		padding-bottom: 15px;
+		padding-left: 20px;
+		padding-right: 20px;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.siliconSection p {
+		margin-bottom: 25px;
+		font-size: 15px;
+		line-height: 22px;
+	}
+
+	.testiminialWrapper h3 {
+		font-size: 25px;
+		line-height: 30px;
+	}
+
+	.testiminialWrapper {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.questionWrap .leftColumn,
+	.questionWrap .rightColumn {
+		padding: 0px 0px 0px 20px;
+	}
+
+	.featuredJobs h3 {
+		font-size: 25px;
+	}
+
+	.featuredWrapper .featuresubHeading {
+		font-size: 18px;
+		padding-left: 10px;
+		padding-right: 10px;
+		line-height: 27px;
+	}
+
+	.jobListing {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.jobListing .jobFDetail > div {
+		padding: 20px;
+	}
+
+	.jobListing .jobFDetail > div p:last-child {
+		text-align: center;
+	}
+
+	.subNavWrap a{
+    	font-size: 14px;
+    	margin: 0 3px;
+	}
+	.slideToViewJobs{
+		width: 100%;
+		text-align: center;
+		left: 0px;
+		right: 0px;
+		margin: auto;
+		border-radius: 0px;
+		line-height: 60px;
+		font-size: 18px;
+		padding-left: 0px;
+		height: 60px;
+		bottom: 0px;
+	}
+	.sectionFourWrap{
+		background-position: 30% 0;
+	}
+	.mobileJustifyContentStart .bannerImage img{
+		height: 50vh;
+		max-height: 50vh;
+	}
+}
+
+@media screen and (max-width:340px) {
+	.readOurGuideBtn {
+		font-size: 13px;
+		margin-left: 6px;
+		width: 114px;
+	}
+
+	.recentlyPublishedWrap .innerwrap svg {
+		height: 13px !important;
+		width: 55px;
+	}
+	.clientSectionWrap,
+	.extendedDevelopmentWrap,
+	.recentlyPublishedWrap .innerwrap {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.extendedDevelopmentWrap p {
+		font-size: 16px;
+		max-width: 265px;
+	}
+
+	.extendedDevelopmentWrap h1 {
+		font-size: 28px;
+	}
+
+	#menu {
+		right: 30px;
+	}
+
+	.extendedDevelopmentWrap h1 {
+		max-width: 200px;
+	}
+
+	#slideThree .extendedDevelopmentWrap h1 {
+		max-width: 230px;
+	}
+
+	.sectionThereWrap.straightOuttaWrap .extendedDevelopmentWrap h1 {
+		max-width: 280px;
+	}
+
+	.sectionFourWrap .extendedDevelopmentWrap h1 {
+		max-width: 240px;
+	}
+
+}
+
+@media (max-width: 767px) and  (orientation:landscape) {
+  .whatWeDoWrap .bannerImage img {
+  	height: 100%;
+  	max-width: 39vw;
+  }
+  .bannerDetail{
+    max-width: 320px;
+  }
+  .allBannerSection .pageTitle{
+    font-size: 25px;
+  }
+  .allBannerSection .preDescription{
+    font-size: 14px;
+  }
+  .allBannerSection{
+    padding-top: 79px;
+  }
+ .yourDeveloperGradient .allBannerSection {
+	background-position: right bottom;
+	background-size: 36vw;
+ }	
+ .polandImageWrap{
+ 	width: 38vw;
+ }
+ .aboutBannerImageWrap{
+ 	width: calc(45% - 50px);
+ }
+ .aboutUsContainer .bannerDetail {
+    width: 62%;
+ }
+}
